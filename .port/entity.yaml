@@ -1,20 +1,28 @@
 identifier: ever-gauzy
 title: Ever Gauzy
-blueprint: repository
+blueprint: githubRepository
 properties:
   description: |
-    Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) 
-    used for enterprise resource planning, time tracking, and invoicing.
-  owner_team: "Pilot Team"
+    Open-source Business Management / ERP / HR Platform for time tracking, project
+    management, financial reports, and payroll automation.
+  owner_team: "Core Platform Team"
   tech_stack:
     - TypeScript
     - NestJS
     - Angular
+    - TypeORM
     - PostgreSQL
-    - Redis
   repo_url: "https://github.com/umeshudayan000/ever-gauzy"
   documentation_url: "https://github.com/umeshudayan000/ever-gauzy/wiki"
   status: active
   primary_language: TypeScript
+  main_entry_files:
+    - "apps/api/src/main.ts"
+    - "apps/gauzy/src/main.ts"
+  test_command: "npm run test"
+
 relations:
-  depends_on_repos: []
+  depends_on_repos:
+    - identityserver4-admin
+    - checkout-single-subscription
+  consumed_by: []
