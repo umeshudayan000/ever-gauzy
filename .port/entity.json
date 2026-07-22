@@ -1,0 +1,32 @@
+{
+  "identifier": "ever-gauzy",
+  "title": "Ever Gauzy",
+  "blueprint": "githubRepository",
+  "properties": {
+    "description": "Open-source Business Management / ERP / HR Platform for time tracking, project management, financial reports, and payroll automation.",
+    "owner_team": "Core Platform Team",
+    "tech_stack": [
+      "TypeScript",
+      "NestJS",
+      "Angular",
+      "TypeORM",
+      "PostgreSQL"
+    ],
+    "repo_url": "https://github.com/umeshudayan000/ever-gauzy",
+    "documentation_url": "https://github.com/umeshudayan000/ever-gauzy/wiki",
+    "status": "active",
+    "primary_language": "TypeScript",
+    "main_entry_files": [
+      "apps/api/src/main.ts",
+      "apps/gauzy/src/main.ts"
+    ],
+    "test_command": "npm run test"
+  },
+  "relations": {
+    "depends_on_repos": [
+      "identityserver4-admin",
+      "checkout-single-subscription"
+    ],
+    "consumed_by": []
+  }
+}
