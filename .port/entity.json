@@ -3,7 +3,7 @@
   "title": "Ever Gauzy",
   "blueprint": "githubRepository",
   "properties": {
-    "description": "Open-source Business Management / ERP / HR Platform for time tracking, project management, financial reports, and payroll automation.",
+    "description": "Ever Gauzy (ever-co/ever-gauzy) is the official open-source, full-stack enterprise platform for Business Management, ERP, CRM, HRM, ATS, and Project Management. Built with NestJS, Angular, and TypeScript in a monorepo setup (Nx), it is engineered for digital agencies, consultancies, and distributed teams. It features real-time employee time tracking, automated screenshots, productivity analytics, leave management, automated payroll, and profit-sharing calculations. The platform supports complete CRM lead pipelines, deal tracking, and recruitment funnels via an integrated Applicant Tracking System (ATS). For financial operations, it handles ERP invoicing, client billing, expense tracking, and payment processing. Project management capabilities include Kanban boards, sprint cycles, task management, OKRs, organizational goals, and performance KPIs. Built on a multi-tenant architecture with RBAC, GraphQL and REST APIs, and multi-database support (PostgreSQL, MySQL, SQLite), it seamlessly integrates with external auth and billing microservices.",
     "owner_team": "Core Platform Team",
     "tech_stack": [
       "TypeScript",
