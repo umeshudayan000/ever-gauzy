@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ever-gauzy
+  description: Open-Source Business Management Platform (ERP, CRM, HRM, and Time Tracking).
+  annotations:
+    github.com/project-slug: 'umeshudayan000/ever-gauzy'
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - typescript
+    - nestjs
+    - angular
+    - erp
+    - crm
+    - hrm
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
