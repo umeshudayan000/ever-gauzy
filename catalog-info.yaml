@@ -2,7 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ever-gauzy
-  description: Open-Source Business Management Platform (ERP, CRM, HRM, and Time Tracking).
+  description: >-
+    Ever Gauzy is an open-source, full-stack enterprise resource planning (ERP), 
+    customer relationship management (CRM), human resource management (HRM), and time tracking 
+    platform. Features activity screenshot logging, employee monitoring, productivity analytics, 
+    invoicing, bi-directional GitHub issues/PR synchronization, and role-based access control (RBAC). 
+    Built with NestJS, Angular, TypeScript, PostgreSQL/SQLite, and TypeORM.
   annotations:
     github.com/project-slug: 'umeshudayan000/ever-gauzy'
     backstage.io/techdocs-ref: dir:.
@@ -13,6 +18,9 @@ metadata:
     - erp
     - crm
     - hrm
+    - time-tracking
+    - github-sync
+    - productivity
 spec:
   type: service
   lifecycle: experimental
