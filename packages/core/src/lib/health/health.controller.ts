@@ -11,4 +11,11 @@ export class HealthController {
 	async getHealthStatus() {
 		return this.healthService.getHealthStatus();
 	}
+
+	/** Liveness ping: no DB, cache, disk, or Redis checks. */
+	@Public()
+	@Get('ping')
+	getHealthPing(): { status: 'ok' } {
+		return { status: 'ok' };
+	}
 }
